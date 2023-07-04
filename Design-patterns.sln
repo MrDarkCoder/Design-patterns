@@ -11,7 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber", "Subscriber\Su
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "async-pattern", "async-pattern", "{B258DAF4-D911-41E2-B5DF-F36E68FBB392}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{9CEACECC-1927-4C92-B254-77FD5AFC07D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductAPI", "ProductAPI\ProductAPI.csproj", "{9CEACECC-1927-4C92-B254-77FD5AFC07D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pub-sub-rabbitmq", "pub-sub-rabbitmq", "{E6436AFC-9F44-465B-9D08-A40B32E7699F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "formulaAirline.API", "formulaAirline.API\formulaAirline.API.csproj", "{A45DBDEC-F3DD-40C6-BEFE-735CA454450D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "formulaAirline.TicketProcessing", "formulaAirline.TicketProcessing\formulaAirline.TicketProcessing.csproj", "{976F5E19-3F51-4F9D-8465-8559CC414283}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +40,14 @@ Global
 		{9CEACECC-1927-4C92-B254-77FD5AFC07D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CEACECC-1927-4C92-B254-77FD5AFC07D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CEACECC-1927-4C92-B254-77FD5AFC07D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976F5E19-3F51-4F9D-8465-8559CC414283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976F5E19-3F51-4F9D-8465-8559CC414283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976F5E19-3F51-4F9D-8465-8559CC414283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976F5E19-3F51-4F9D-8465-8559CC414283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +56,8 @@ Global
 		{67B04069-8E99-4DEB-94F3-DB0FB0E3671F} = {799D85AE-0BA1-42F0-9CAB-AF9269280652}
 		{20CED86E-B5DA-4F58-915D-CD184D268300} = {799D85AE-0BA1-42F0-9CAB-AF9269280652}
 		{9CEACECC-1927-4C92-B254-77FD5AFC07D5} = {B258DAF4-D911-41E2-B5DF-F36E68FBB392}
+		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D} = {E6436AFC-9F44-465B-9D08-A40B32E7699F}
+		{976F5E19-3F51-4F9D-8465-8559CC414283} = {E6436AFC-9F44-465B-9D08-A40B32E7699F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {877C31B8-8AC5-429B-9DCE-A16FB648DC5B}

@@ -24,7 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "formulaAirline.TicketProces
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Design_patterns", "01_Design_patterns", "{73871356-C8B2-46AF-B2C4-5A13E48CD5E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "design_pattern_c#", "design_pattern_c#\design_pattern_c#.csproj", "{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "design_pattern_c#", "design_pattern_c#\design_pattern_c#.csproj", "{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{7126D735-070F-4B16-8810-1671A1676991}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +58,10 @@ Global
 		{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7126D735-070F-4B16-8810-1671A1676991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7126D735-070F-4B16-8810-1671A1676991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7126D735-070F-4B16-8810-1671A1676991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7126D735-070F-4B16-8810-1671A1676991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{A45DBDEC-F3DD-40C6-BEFE-735CA454450D} = {E6436AFC-9F44-465B-9D08-A40B32E7699F}
 		{976F5E19-3F51-4F9D-8465-8559CC414283} = {E6436AFC-9F44-465B-9D08-A40B32E7699F}
 		{28F36B8C-16C1-43C7-ADFC-0C8B1BCFFD18} = {73871356-C8B2-46AF-B2C4-5A13E48CD5E7}
+		{7126D735-070F-4B16-8810-1671A1676991} = {73871356-C8B2-46AF-B2C4-5A13E48CD5E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {877C31B8-8AC5-429B-9DCE-A16FB648DC5B}
